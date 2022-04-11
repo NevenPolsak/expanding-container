@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expanding Information to Full Width</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container1">
+      <div class="heading" id="color1" onclick="boxContainer('box1')">
+        Read more
+      </div>
+      <div class="heading" id="color2" onclick="boxContainer('box2')">
+        Above us
+      </div>
+      <div class="heading" id="color3" onclick="boxContainer('box3')">
+        Know more
+      </div>
+      <div class="heading" id="color4" onclick="boxContainer('box4')">
+        Address
+      </div>
+    </div>
+    <div class="container" id="box1">
+      <span class="btn" onclick="this.parentElement.style.display='none'"
+        >&times;</span
+      >
+      <p class="text">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit fugit
+        quod maiores laboriosam nostrum quisquam quo adipisci maxime asperiores,
+        molestias illum temporibus repellendus itaque, laudantium incidunt
+        facilis impedit eos consequatur.
+      </p>
+    </div>
+    <div class="container" id="box2">
+      <span class="btn" onclick="this.parentElement.style.display='none'"
+        >&times;</span
+      >
+      <p class="text">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit fugit
+        quod maiores laboriosam nostrum quisquam quo adipisci maxime asperiores,
+        molestias illum temporibus repellendus itaque, laudantium incidunt
+        facilis impedit eos consequatur.
+      </p>
+    </div>
+    <div class="container" id="box3">
+      <span class="btn" onclick="this.parentElement.style.display='none'"
+        >&times;</span
+      >
+      <p class="text">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit fugit
+        quod maiores laboriosam nostrum quisquam quo adipisci maxime asperiores,
+        molestias illum temporibus repellendus itaque, laudantium incidunt
+        facilis impedit eos consequatur.
+      </p>
+    </div>
+    <div class="container" id="box4">
+      <span class="btn" onclick="this.parentElement.style.display='none'"
+        >&times;</span
+      >
+      <p class="text">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit fugit
+        quod maiores laboriosam nostrum quisquam quo adipisci maxime asperiores,
+        molestias illum temporibus repellendus itaque, laudantium incidunt
+        facilis impedit eos consequatur.
+      </p>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
